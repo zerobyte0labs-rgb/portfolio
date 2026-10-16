@@ -8,7 +8,6 @@
 
 A responsive, single-page personal portfolio built from my CV. It presents who I am, my skills, internships, projects, student activities, education, certifications and CTF competitions, and lets visitors contact me. The site is built with only HTML, CSS and vanilla JavaScript (no framework, no library, no build step).
 
-**Live demo:** `https://ayazedd7.github.io/<repository-name>/` *(replace with your GitHub Pages link)*
 
 ## Technologies used
 
@@ -46,32 +45,7 @@ portfolio/
 └── README.md
 ```
 
-## Run locally
 
-Open `index.html` in any browser. No installation is needed.
-
-## Publish on GitHub Pages
-
-1. Create a new public repository on GitHub (for example `portfolio`).
-2. Upload the project files, or push them from the terminal:
-   ```bash
-   git init
-   git add .
-   git commit -m "Add portfolio"
-   git branch -M main
-   git remote add origin https://github.com/ayazedd7/portfolio.git
-   git push -u origin main
-   ```
-3. On GitHub, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then **Save**.
-4. After about a minute the site is live at `https://ayazedd7.github.io/portfolio/`.
-
-## Screenshots
-
-Add your screenshots to the `images/` folder and reference them here:
-
-| Home | Skills | Projects |
-|------|--------|----------|
-| ![Home](images/home.png) | ![Skills](images/skills.png) | ![Projects](images/projects.png) |
 
 ## Contact
 
