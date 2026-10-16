@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Aya Zeddoun - Computer Science student specialized in cybersecurity, forensics and AI." />
+  <title>Aya Zeddoun | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">&lt;aya<span>/</span>&gt;</a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle dark / light theme">🌙</button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Aya <span class="accent">Zeddoun</span></h1>
+        <h2 class="typing">I'm a <span id="typed"></span><span class="cursor">|</span></h2>
+        <p class="hero-text">
+          Third-year Computer Science student at the École Supérieure des Technologies Avancées,
+          passionate about cybersecurity, defensive security, data protection, AI and data analysis.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View my projects</a>
+          <a href="#contact" class="btn btn-outline">Contact me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/ayazedd7" target="_blank" rel="noopener">GitHub</a>
+          <a href="http://linkedin.com/in/aya-zeddoun-262b7b243" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:aa.zeddoun@ensta.edu.dz">Email</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <div class="avatar">AZ</div>
+        <pre class="terminal"><code>$ whoami
+aya_zeddoun
+$ cat role.txt
+CS student | CTF player
+$ cat focus.txt
+forensics, defensive sec, AI
+$ _</code></pre>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <h2 class="section-title reveal">About <span class="accent">me</span></h2>
+      <div class="about-grid">
+        <p class="reveal">
+          I am a third-year Computer Science Engineering student at the École Supérieure des Technologies
+          Avancées, passionate about cybersecurity, defensive security, data protection, artificial
+          intelligence and data analysis. I take part in CTF competitions, with forensics as my specialty,
+          and I keep learning the best practices of information security.
+        </p>
+        <ul class="info-list reveal">
+          <li><strong>Location:</strong> Remchi, Algeria</li>
+          <li><strong>Email:</strong> aa.zeddoun@ensta.edu.dz</li>
+          <li><strong>Phone:</strong> +213 794 405 412</li>
+          <li><strong>Languages:</strong> Arabic (native), French (intermediate), English (intermediate)</li>
+        </ul>
+      </div>
+      <div class="stats">
+        <div class="stat reveal"><span class="count" data-target="2">0</span><p>Internships</p></div>
+        <div class="stat reveal"><span class="count" data-target="3">0</span><p>Projects</p></div>
+        <div class="stat reveal"><span class="count" data-target="4">0</span><p>CTFs played</p></div>
+        <div class="stat reveal"><span class="count" data-target="4">0</span><p>Certifications</p></div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section alt" id="skills">
+      <h2 class="section-title reveal">My <span class="accent">skills</span></h2>
+      <div class="cards-grid">
+        <article class="card reveal">
+          <h3>💻 Programming</h3>
+          <div class="tags"><span>Python</span><span>C</span><span>Java</span><span>Bash scripting</span><span>SQL</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>🛡️ Cybersecurity</h3>
+          <div class="tags"><span>Log Analysis</span><span>Malware Analysis (Beginner)</span><span>Basic Forensics</span><span>SSH</span><span>Kali Linux</span><span>Ubuntu</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>🌐 Networking &amp; Infra</h3>
+          <div class="tags"><span>TCP/IP</span><span>DNS</span><span>HTTP</span><span>VPN</span><span>Firewalls</span><span>Cloud (learning)</span><span>VirtualBox</span><span>VMware basics</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>📊 Data &amp; AI</h3>
+          <div class="tags"><span>Data Manipulation</span><span>Machine Learning basics</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>🧰 Tools</h3>
+          <div class="tags"><span>VS Code</span><span>Git</span><span>Linux</span><span>Wireshark</span><span>Volatility</span><span>FTK Imager</span><span>Ghidra</span><span>Autopsy</span></div>
+        </article>
+        <article class="card reveal">
+          <h3>🗣️ Languages</h3>
+          <div class="bars">
+            <div class="bar"><label>Arabic <em>Native</em></label><div class="track"><div class="fill" data-width="100"></div></div></div>
+            <div class="bar"><label>French <em>Intermediate</em></label><div class="track"><div class="fill" data-width="60"></div></div></div>
+            <div class="bar"><label>English <em>Intermediate</em></label><div class="track"><div class="fill" data-width="60"></div></div></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+      <h2 class="section-title reveal">Work <span class="accent">experience</span></h2>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span class="dot"></span>
+          <h3>Cybersecurity &amp; Artificial Intelligence Intern</h3>
+          <p class="meta">Galicho — Sidi Bel Abbès, Algeria · Internship</p>
+          <ul>
+            <li>Contributed to cybersecurity and AI-related projects in a professional environment</li>
+            <li>Assisted with security analysis, networking and Linux-based tasks</li>
+            <li>Collaborated with team members on technical problem-solving and project development</li>
+            <li>Gained practical experience applying AI concepts to real-world use cases</li>
+          </ul>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="dot"></span>
+          <h3>Cybersecurity Intern</h3>
+          <p class="meta">CodeAlpha — Remote · Internship</p>
+          <ul>
+            <li>Developed cybersecurity projects using Python</li>
+            <li>Built and tested a network sniffer for packet capture and traffic analysis</li>
+            <li>Strengthened practical skills in network security and cybersecurity fundamentals</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section alt" id="projects">
+      <h2 class="section-title reveal">My <span class="accent">projects</span></h2>
+      <div class="filters reveal">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="security">Security</button>
+        <button class="filter" data-filter="web">Web</button>
+      </div>
+      <div class="cards-grid" id="projectGrid">
+        <article class="card project reveal" data-category="security">
+          <span class="badge">Security</span>
+          <h3>Phishing Email Detection Telegram Bot</h3>
+          <p>A Telegram bot that analyzes and detects phishing emails using heuristic and pattern-based techniques. It helps users identify malicious emails directly through a chat interface.</p>
+          <div class="tags"><span>Python</span><span>Telegram Bot</span><span>Heuristics</span></div>
+        </article>
+        <article class="card project reveal" data-category="web">
+          <span class="badge">Web</span>
+          <h3>AMANAH — Lost &amp; Found Platform</h3>
+          <p>Backend developer on a web platform connecting people who lost or found objects across Algeria. I worked on server-side logic, APIs and database management.</p>
+          <div class="tags"><span>Backend</span><span>APIs</span><span>Database</span></div>
+        </article>
+        <article class="card project reveal" data-category="security">
+          <span class="badge">Security</span>
+          <h3>Keylogger (educational)</h3>
+          <p>Developed for educational and research purposes, to gain hands-on understanding of malware behavior and low-level system interaction.</p>
+          <div class="tags"><span>Malware research</span><span>Low-level</span><span>Education</span></div>
+        </article>
+        <article class="card project reveal" data-category="security">
+          <span class="badge">Security</span>
+          <h3>Network Sniffer</h3>
+          <p>Built and tested during my CodeAlpha internship for packet capture and network traffic analysis.</p>
+          <div class="tags"><span>Python</span><span>Networking</span><span>Packet capture</span></div>
+        </article>
+      </div>
+      <p class="note reveal">More of my code is on <a href="https://github.com/ayazedd7" target="_blank" rel="noopener">github.com/ayazedd7</a>.</p>
+    </section>
+
+    <!-- ===== ACTIVITIES ===== -->
+    <section class="section" id="activities">
+      <h2 class="section-title reveal">Activities &amp; <span class="accent">involvement</span></h2>
+      <div class="cards-grid two">
+        <article class="card reveal">
+          <h3>Shellmates — Active Member</h3>
+          <p class="meta">Since May 2023</p>
+          <ul>
+            <li>Organization and participation in cybersecurity meetups</li>
+            <li>Technical content writing (Discord / Instagram) as Communication Manager</li>
+            <li>Participation in and facilitation of workshops (Log Analysis, Hack The Box, etc.)</li>
+            <li>Creating CTF-style cybersecurity challenges</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3>CODEC (Development) — Member</h3>
+          <p class="meta">Since May 2025</p>
+          <ul>
+            <li>Contributing to development projects</li>
+            <li>Technical collaboration within a student team</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section alt" id="education">
+      <h2 class="section-title reveal">My <span class="accent">education</span></h2>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span class="dot"></span>
+          <h3>Computer Science Engineering Degree</h3>
+          <p class="meta">École Supérieure des Technologies Avancées · 2023 – Present</p>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="dot"></span>
+          <h3>Baccalaureate in Mathematics</h3>
+          <p class="meta">2023 · With Highest Honors (16.96/20)</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section class="section" id="certifications">
+      <h2 class="section-title reveal">Certifications &amp; <span class="accent">competitions</span></h2>
+      <div class="cards-grid">
+        <article class="card reveal">
+          <h3>🎓 Online courses</h3>
+          <ul>
+            <li>Cybrary — Security+: General Security Concepts (Aug. 2024)</li>
+            <li>LetsDefend — Malware Analysis Skill Path (Feb. 2025)</li>
+            <li>Security Blue Team — Introduction to Digital Forensics (Apr. 2025)</li>
+            <li>Hack The Box Academy — Module Completion (ID: 1389360/39), 2025</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3>🎤 Events &amp; bootcamps</h3>
+          <ul>
+            <li>CyberSec Bootcamp 2025 — Shellmates Club, ESI Algiers (Oct. 2025)</li>
+            <li>BSides Algiers, 7th Edition — Staff Member (Dec. 2025)</li>
+            <li>Shellmates Integration Program — Mentor (2025)</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <h3>🚩 CTF competitions</h3>
+          <p class="meta">Specialty: Forensics</p>
+          <ul>
+            <li>BearcatCTF 2026 — Cyber@UC</li>
+            <li>ApoorvCTF '26 — Team Hexara (handle: aptx4869)</li>
+            <li>P3RF3CT Root 2025</li>
+            <li>ASIS CTF 2026</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section alt" id="contact">
+      <h2 class="section-title reveal">Get in <span class="accent">touch</span></h2>
+      <div class="contact-grid">
+        <div class="reveal">
+          <p>Interested in working together, or want to talk about cybersecurity and CTFs? Send me a message.</p>
+          <ul class="info-list">
+            <li>📧 <a href="mailto:aa.zeddoun@ensta.edu.dz">aa.zeddoun@ensta.edu.dz</a></li>
+            <li>📞 +213 794 405 412</li>
+            <li>📍 Rue Yamani Mohammed 1, Remchi, Algeria</li>
+            <li>🐙 <a href="https://github.com/ayazedd7" target="_blank" rel="noopener">github.com/ayazedd7</a></li>
+            <li>💼 <a href="http://linkedin.com/in/aya-zeddoun-262b7b243" target="_blank" rel="noopener">linkedin.com/in/aya-zeddoun</a></li>
+          </ul>
+        </div>
+        <form id="contactForm" class="form reveal" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" />
+          <small class="error" id="nameError"></small>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" />
+          <small class="error" id="emailError"></small>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message..."></textarea>
+          <small class="error" id="messageError"></small>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Aya Zeddoun. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
