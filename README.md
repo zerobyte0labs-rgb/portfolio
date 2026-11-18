@@ -41,7 +41,7 @@ portfolio/
 │   └── style.css
 ├── js/
 │   └── script.js
-├── images/          (optional — add your photo / screenshots here)
+├── images/          
 └── README.md
 ```
 
